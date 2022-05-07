@@ -2,7 +2,7 @@ import Link from "next/link";
 export const Hero = () => {
   return (
     <div className="flex flex-col space-y-4">
-      <p className="text-medium-purple-700 text-sm font-inter border-4 border-slate-50 w-fit rounded-xl px-2">
+      <p className="text-medium-purple-600 text-sm font-inter border-4 border-slate-50 w-fit rounded-xl px-2">
         Hi, I&apos;m Theo Harris
       </p>
       <h1 className="text-slate-900 font-semibold text-6xl font-raleway">
