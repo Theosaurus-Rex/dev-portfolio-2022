@@ -49,7 +49,7 @@ export const Projects = () => {
   return (
     <ul
       role="list"
-      className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+      className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 bg-gradient-to-b from-medium-purple-400 to-white"
     >
       {projects.map((project) => (
         <li
