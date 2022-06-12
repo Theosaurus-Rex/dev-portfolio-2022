@@ -10,7 +10,12 @@ export const Contact = () => {
       <p className="font-light font-inter text-slate-500 text-xl">
         I&apos;d love to hear from you. Please fill out this form.
       </p>
-      <form name="contact" method="POST" data-netlify="true">
+      <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        action="/pages/success"
+      >
         <p>
           <label>
             Your Name: <input type="text" name="name" />
