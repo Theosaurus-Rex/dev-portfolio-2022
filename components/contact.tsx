@@ -10,36 +10,20 @@ export const Contact = () => {
       <p className="font-light font-inter text-slate-500 text-xl">
         I&apos;d love to hear from you. Please fill out this form.
       </p>
-      <a href="/pages/success.tsx">TEST LINK</a>
-      <form
-        name="contact"
-        method="POST"
-        data-netlify="true"
-        action="/pages/success.tsx"
-      >
+      <form name="contact" method="POST" data-netlify="true " action="/success">
+        <input type="hidden" name="form-name" value="contact" />
         <p>
-          <label>
-            Your Name: <input type="text" name="name" />
-          </label>
+          <input type="text" name="firstname" id="firstname" />
+          <label htmlFor="yourname">Your Name:</label> <br />
+          <input type="text" name="name" id="yourname" />
         </p>
         <p>
-          <label>
-            Your Email: <input type="email" name="email" />
-          </label>
+          <label htmlFor="youremail">Your Email:</label> <br />
+          <input type="email" name="email" id="youremail" />
         </p>
         <p>
-          <label>
-            Your Role:{" "}
-            <select name="role[]" multiple>
-              <option value="leader">Leader</option>
-              <option value="follower">Follower</option>
-            </select>
-          </label>
-        </p>
-        <p>
-          <label>
-            Message: <textarea name="message"></textarea>
-          </label>
+          <label htmlFor="yourmessage">Message:</label> <br />
+          <textarea name="message" id="yourmessage"></textarea>
         </p>
         <p>
           <button type="submit">Send</button>
