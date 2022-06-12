@@ -14,7 +14,7 @@ export const Contact = () => {
         name="contact"
         method="POST"
         data-netlify="true"
-        action="/pages/success"
+        action="/pages/success.tsx"
       >
         <p>
           <label>
