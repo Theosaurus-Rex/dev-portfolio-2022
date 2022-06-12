@@ -10,6 +10,7 @@ export const Contact = () => {
       <p className="font-light font-inter text-slate-500 text-xl">
         I&apos;d love to hear from you. Please fill out this form.
       </p>
+      <a href="/pages/success.tsx">TEST LINK</a>
       <form
         name="contact"
         method="POST"
