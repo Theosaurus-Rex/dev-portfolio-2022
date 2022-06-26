@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
+import heroPlaceholder from "/public/img/placeholder_hero.png";
 export const Hero = () => {
   return (
-    <div className="grid grid-cols-2 w-full">
-      <div className="col-start-1 col-span-1 flex flex-col space-y-4">
+    <div className="py-20 grid grid-cols-2 w-full items-center content-center">
+      <div className="px-20 col-start-1 col-span-1 flex flex-col space-y-4">
         <p className="text-medium-purple-600 text-sm font-inter border-4 border-slate-50 w-fit rounded-xl px-2">
           Hi, I&apos;m Theo Harris
         </p>
@@ -24,11 +25,9 @@ export const Hero = () => {
       </div>
       <div className="col-start-2 col-span-1 w-full drop-shadow-2xl">
         <Image
-          src={"/img/placeholder_hero.png"}
+          src={heroPlaceholder}
           alt={"Cartoon character with a VR headset and controllers"}
           layout="responsive"
-          height="80"
-          width="100"
         />
       </div>
     </div>
