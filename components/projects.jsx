@@ -47,44 +47,49 @@ const projects = [
 
 export const Projects = () => {
   return (
-    <ul
-      role="list"
-      className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 bg-gradient-to-b from-medium-purple-400 to-white"
-    >
-      {projects.map((project) => (
-        <li
-          key={project.title}
-          className="col-span-1 flex flex-col text-left bg-white rounded-lg shadow divide-y divide-slate-200"
-        >
-          <div className="flex-1 flex flex-col p-8">
-            <Image
-              src={project.img}
-              alt={project.img_alt}
-              layout="responsive"
-            />
-            <h3 className="mt-6 text-slate-900 text-2xl font-medium">
-              <a href={project.code_link}>{project.title}</a>
-            </h3>
-            <dl className="mt-1 flex-grow flex flex-col justify-between">
-              <dt className="sr-only">Description</dt>
-              <dd className="text-slate-500 text-base">
-                {project.description}
-              </dd>
-              <dt className="sr-only">Tech Stack</dt>
-              <dd className="mt-3 space-x-1">
-                {project.stack.map((tech) => (
-                  <span
-                    key={tech}
-                    className="px-2 py-1 text-medium-purple-800 text-xs font-medium bg-medium-purple-200 rounded-full"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </dd>
-            </dl>
-          </div>
-        </li>
-      ))}
-    </ul>
+    <div className="flex flex-col items-center">
+      <h2 className="font-semibold font-raleway text-slate-900 text-5xl">
+        Work
+      </h2>
+      <ul
+        role="list"
+        className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3"
+      >
+        {projects.map((project) => (
+          <li
+            key={project.title}
+            className="col-span-1 flex flex-col text-left bg-white rounded-lg shadow divide-y divide-slate-200"
+          >
+            <div className="flex-1 flex flex-col p-8">
+              <Image
+                src={project.img}
+                alt={project.img_alt}
+                layout="responsive"
+              />
+              <h3 className="mt-6 text-slate-900 text-2xl font-medium">
+                <a href={project.code_link}>{project.title}</a>
+              </h3>
+              <dl className="mt-1 flex-grow flex flex-col justify-between">
+                <dt className="sr-only">Description</dt>
+                <dd className="text-slate-500 text-base">
+                  {project.description}
+                </dd>
+                <dt className="sr-only">Tech Stack</dt>
+                <dd className="mt-3 space-x-1">
+                  {project.stack.map((tech) => (
+                    <span
+                      key={tech}
+                      className="px-2 py-1 text-medium-purple-800 text-xs font-medium bg-medium-purple-200 rounded-full"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </dd>
+              </dl>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 };
