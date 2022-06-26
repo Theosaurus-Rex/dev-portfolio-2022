@@ -24,6 +24,9 @@ module.exports = {
         raleway: ["Raleway", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       },
+      backgroundImage: {
+        "project-gallery-pattern": "url('/img/project_gallery_background.svg')",
+      },
     },
   },
   plugins: [],

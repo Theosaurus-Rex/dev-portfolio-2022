@@ -47,7 +47,7 @@ const projects = [
 
 export const Projects = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="p-10 space-y-6 flex flex-col items-center bg-project-gallery-pattern bg-no-repeat bg-top bg-cover">
       <h2 className="font-semibold font-raleway text-slate-900 text-5xl">
         Work
       </h2>
