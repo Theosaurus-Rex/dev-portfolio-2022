@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <div className="py-20 flex flex-col items-center content-center space-y-10">
+    <div className="py-20 px-10 flex flex-col items-center content-center space-y-10">
       <p className="text-medium-purple-600 font-semibold font-inter">
         I like dinosaurs.
       </p>

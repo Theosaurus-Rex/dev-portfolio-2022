@@ -1,6 +1,6 @@
 export const Contact = () => {
   return (
-    <div className="py-20 flex flex-col items-center">
+    <div className="py-20 px-10 flex flex-col items-center">
       <div className="py-20 flex flex-col space-y-10 items-center">
         <p className="text-medium-purple-600 font-semibold font-inter">
           What&apos;s your favourite dinosaur?
@@ -17,7 +17,7 @@ export const Contact = () => {
         method="POST"
         data-netlify="true"
         action="/success"
-        className="flex flex-col bg-medium-purple-200 bg-opacity-50 px-20 py-10 rounded-lg space-y-6"
+        className="px-10 flex flex-col bg-medium-purple-200 bg-opacity-50 md:px-20 py-10 rounded-lg space-y-6"
       >
         <input type="hidden" name="form-name" value="contact" />
         <p>
