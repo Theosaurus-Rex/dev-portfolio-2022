@@ -47,7 +47,7 @@ const projects = [
 
 export const Projects = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div id="my-work" className="flex flex-col items-center">
       <div className="bg-[#F9F5FF] w-full">
         <h2 className="font-semibold font-raleway text-medium-purple-900 text-5xl py-16 text-center">
           Work

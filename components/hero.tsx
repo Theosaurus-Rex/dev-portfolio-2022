@@ -17,7 +17,7 @@ export const Hero = () => {
           delightful and accessible.
         </p>
         <a
-          href=""
+          href="#my-work"
           className="font-inter bg-medium-purple-600 hover:bg-medium-purple-700 text-white px-4 py-2 rounded-md w-fit"
         >
           See My Work
