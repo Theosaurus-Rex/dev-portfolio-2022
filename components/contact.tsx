@@ -30,6 +30,7 @@ export const Contact = () => {
             name="name"
             id="yourname"
             className="py-3 px-4 block w-full shadow-md focus:ring-medium-purple-500 focus:medium-purple-500 rounded-md"
+            required
           />
         </p>
         <p>
@@ -42,6 +43,7 @@ export const Contact = () => {
             name="email"
             id="youremail"
             className="py-3 px-4 block w-full shadow-md focus:ring-medium-purple-500 focus:medium-purple-500 rounded-md"
+            required
           />
         </p>
         <p>
@@ -54,6 +56,7 @@ export const Contact = () => {
             name="favedino"
             id="favedino"
             className="py-3 px-4 block w-full shadow-md focus:ring-medium-purple-500 focus:medium-purple-500 rounded-md"
+            required
           />
         </p>
         <p>
@@ -65,6 +68,7 @@ export const Contact = () => {
             name="message"
             id="yourmessage"
             className="py-3 px-4 block w-full shadow-md focus:ring-medium-purple-500 focus:medium-purple-500 rounded-md"
+            required
           ></textarea>
         </p>
         <p className="self-center">
