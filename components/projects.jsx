@@ -69,7 +69,7 @@ export const Projects = () => {
                   alt={project.img_alt}
                   layout="responsive"
                 />
-                <h3 className="mt-6 text-slate-900 text-2xl font-medium">
+                <h3 className="mt-6 text-slate-900 text-2xl font-medium hover:underline hover:text-medium-purple-600">
                   <a href={project.code_link}>{project.title}</a>
                 </h3>
                 <dl className="mt-1 flex-grow flex flex-col justify-between">
