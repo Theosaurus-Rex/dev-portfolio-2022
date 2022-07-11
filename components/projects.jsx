@@ -78,14 +78,14 @@ export const Projects = () => {
                     {project.description}
                   </dd>
                   <dt className="sr-only">Tech Stack</dt>
-                  <dd className="mt-3 space-x-1">
+                  <dd className="mt-3 space-x-1 flex flex-wrap">
                     {project.stack.map((tech) => (
-                      <span
+                      <div
                         key={tech}
-                        className="px-2 py-1 text-medium-purple-800 text-xs font-medium bg-medium-purple-200 rounded-full"
+                        className="my-1 px-2 py-1 text-medium-purple-800 text-xs font-medium bg-medium-purple-200 rounded-full w-fit"
                       >
                         {tech}
-                      </span>
+                      </div>
                     ))}
                   </dd>
                 </dl>
