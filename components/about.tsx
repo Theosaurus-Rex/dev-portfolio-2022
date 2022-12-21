@@ -8,9 +8,8 @@ export const About = () => {
         About
       </h2>
       <p className="font-light font-inter text-slate-500 text-xl">
-        Currently a Junior Consultant at Alembic working with Elixir, Phoenix
-        LiveView and Typescript. Coder Academy alumni, Artist and dinosaur
-        enthusiast.
+        Currently a Consultant at Alembic working with Elixir, Phoenix LiveView
+        and Typescript. Coder Academy alumni, Artist and dinosaur enthusiast.
       </p>
     </div>
   );
