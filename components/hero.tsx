@@ -9,12 +9,12 @@ export const Hero = () => {
           Hi, I&apos;m Theo Harris
         </p>
         <h1 className="text-2xl text-slate-900 font-semibold md:text-4xl lg:text-6xl font-raleway">
-          Web Developer and Visual Artist from Sydney, Australia.
+          Web Developer, Designer, and Illustrator from Sydney, Australia.
         </h1>
         <p className="text-xl text-slate-500 font-light font-inter">
-          Passionate about working in the intersection of visual communication
-          and the web. I believe in creating digital experiences that are both
-          delightful and accessible.
+          Web developer with experience in JavaScript, React, Elixir, Phoenix,
+          and LiveView. Looking to pivot into the field of web design and eager
+          to bring my technical expertise to the design process.
         </p>
         <a
           href="#my-work"

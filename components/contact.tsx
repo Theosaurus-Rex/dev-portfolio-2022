@@ -2,11 +2,8 @@ export const Contact = () => {
   return (
     <div className="py-20 px-10 flex flex-col items-center">
       <div className="py-20 flex flex-col space-y-10 items-center">
-        <p className="text-medium-purple-600 font-semibold font-inter">
-          What&apos;s your favourite dinosaur?
-        </p>
         <h2 className="font-semibold font-raleway text-slate-900 text-5xl">
-          Holla
+          Howdy!
         </h2>
         <p className="font-light font-inter text-slate-500 text-xl">
           I&apos;d love to hear from you. Please fill out this form.
@@ -42,19 +39,6 @@ export const Contact = () => {
             type="email"
             name="email"
             id="youremail"
-            className="py-3 px-4 block w-full shadow-md focus:ring-medium-purple-500 focus:medium-purple-500 rounded-md"
-            required
-          />
-        </p>
-        <p>
-          <label htmlFor="favedino" className="text-sm">
-            Favourite Dinosaur:
-          </label>{" "}
-          <br />
-          <input
-            type="text"
-            name="favedino"
-            id="favedino"
             className="py-3 px-4 block w-full shadow-md focus:ring-medium-purple-500 focus:medium-purple-500 rounded-md"
             required
           />
