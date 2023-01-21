@@ -16,16 +16,6 @@ const projects = [
     img_alt: "DeepAI project screenshot",
   },
   {
-    title: "Retro Rocket",
-    description:
-      "A two-sided marketplace for collectors of retro and vintage toys and games.",
-    stack: ["Ruby", "Ruby on Rails", "PostgresQL", "Tailwind"],
-    live_link: "https://retro-rocket.herokuapp.com/",
-    code_link: "https://github.com/Theosaurus-Rex/retro_rocket",
-    img: retroRocketPic,
-    img_alt: "Retro Rocket project screenshot",
-  },
-  {
     title: "React Rogue",
     description: "An homage to classic roguelike games, built in React.",
     stack: ["JavaScript", "React"],
